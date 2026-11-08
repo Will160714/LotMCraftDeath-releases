@@ -1,8 +1,8 @@
 name = "LOTMCraft"
-filename = "lotmcraft-1.13.3-20261108.0939.jar"
+filename = "lotmcraft-1.13.3-20261108.1804.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Will160714/LotMCraftDeath-releases/releases/download/v1.13.3-20261108.0939/lotmcraft-1.13.3-20261108.0939.jar"
+url = "https://github.com/Will160714/LotMCraftDeath-releases/releases/download/v1.13.3-20261108.1804/lotmcraft-1.13.3-20261108.1804.jar"
 hash-format = "sha256"
-hash = "28060d95154a4380805fd0360848dfcc8c72c821c1c5f6fe3b6b6253c873d826"
+hash = "c268e52862003bec03c3cdecb12c317f382a4132601d8ca1a7378c539ec87b70"
