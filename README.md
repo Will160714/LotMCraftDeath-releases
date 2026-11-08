@@ -102,6 +102,52 @@ Run `update.bat` / `update.sh` first, then start the installation from the
 Minecraft Launcher. If LOTMCraft hasn't changed, the script finishes in a few
 seconds.
 
+## Playing with the CurseForge app
+
+The CurseForge app can't run the installer before launch, but because the pack
+is a single mod there are two easy ways to use it.
+
+### One-time setup
+
+1. In the CurseForge app, go to Minecraft → **Create Custom Profile**.
+2. Choose Minecraft **1.21.1**, mod loader **NeoForge**, and version
+   **21.1.265** (any 21.1.217 or newer works). Create it.
+3. Open the profile, click the **⋯** menu → **Open Folder**. This opens the
+   profile's folder (normally
+   `C:\Users\<you>\curseforge\minecraft\Instances\<profile name>`).
+4. Optional but recommended: profile **⋯** → **Profile Options** → turn off
+   "Use System Memory Settings" and allocate at least 4 GB.
+
+Then pick **one** of the options below.
+
+### Option A: add the jar by hand (simplest)
+
+1. Download the `lotmcraft-….jar` file from the
+   [latest release](https://github.com/Will160714/LotMCraftDeath-releases/releases/latest).
+2. Put it in the `mods` folder inside the profile's folder.
+3. Play from the CurseForge app.
+
+When a new release comes out, delete the old `lotmcraft-….jar` from `mods`
+and download the new one. Never keep two LOTMCraft jars in `mods` at once.
+
+### Option B: update automatically with a script
+
+1. Install Java 21 if you don't have it:
+   https://adoptium.net/temurin/releases/?version=21 (tick "Add to PATH" if
+   asked).
+2. Download `packwiz-installer-bootstrap.jar` from
+   https://github.com/packwiz/packwiz-installer-bootstrap/releases into the
+   profile's folder.
+3. Create `update.bat` in the profile's folder with the same contents as in
+   the official launcher section above.
+4. Double-click `update.bat` before you play. It downloads the newest
+   LOTMCraft jar into `mods` and removes the old one.
+5. Play from the CurseForge app. CurseForge lists LOTMCraft as a mod you added
+   yourself; that's expected.
+
+Don't mix the options: if you use the script, let it manage the LOTMCraft jar
+and don't add or remove it by hand.
+
 ## Server
 
 Put `packwiz-installer-bootstrap.jar` in the server folder and run this before
