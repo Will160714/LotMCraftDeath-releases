@@ -1,0 +1,13 @@
+name = "Mod Whitelist Forge NeoForge"
+filename = "modwhitelist-1.21.1-2.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "96af07d0cd5b16c53e09568dade53f648da148ce"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9039856
+project-id = 1337933

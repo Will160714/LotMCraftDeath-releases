@@ -1,0 +1,13 @@
+name = "Epic Knights: Open Helms"
+filename = "epicknights_open_helms-1.0.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6e5ba062d80306d3851be122cf01430e21d7926c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8292114
+project-id = 1176829

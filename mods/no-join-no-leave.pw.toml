@@ -1,0 +1,13 @@
+name = "No Join No Leave"
+filename = "nojoinnoleave-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Kiy3hfKZ/versions/Vxje3ff4/nojoinnoleave-1.0.0.jar"
+hash-format = "sha512"
+hash = "7a7a13645ad76dd1dd8c4ae4e1bad237811699979c527f636c6c0b005bc29d635c5ed5dec66450c0209be09ed092da31108cc64c8c624d1ab269aaff180f74ac"
+
+[update]
+[update.modrinth]
+mod-id = "Kiy3hfKZ"
+version = "Vxje3ff4"

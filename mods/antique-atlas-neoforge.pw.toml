@@ -1,0 +1,13 @@
+name = "Antique Atlas Neoforge"
+filename = "antique-atlas-neoforge-2.1.1-1.21-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "08999586dfe84da3d9468a71bcad22fdd1ae405b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9368780
+project-id = 1748892

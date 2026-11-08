@@ -1,0 +1,13 @@
+name = "Sable: True Impact (For Create: Aeronautics)"
+filename = "true_impact-0.5.7-delta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1ab79100b36fedfe2f142f61365e40847f602dcd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8429394
+project-id = 1544491

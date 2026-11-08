@@ -1,0 +1,13 @@
+name = "No Tab"
+filename = "notab-0.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4tqbetMf/versions/SoXPH95e/notab-0.0.1.jar"
+hash-format = "sha512"
+hash = "6d3fc12f9c6519965dd92f4539a7a09fb3d57f13e1682e5aa17023ca616a7008d270a4fb4cac330c74f36b82c3a59db97884d7942815971e7977afc3f0ba92b1"
+
+[update]
+[update.modrinth]
+mod-id = "4tqbetMf"
+version = "SoXPH95e"

@@ -1,0 +1,13 @@
+name = "Sable Chunk Guard"
+filename = "sable-chunk-guard-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5920e2c484821d65c68739508bff01b9a2b471a3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8153773
+project-id = 1555530

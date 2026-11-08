@@ -1,0 +1,13 @@
+name = "[ASW] Adaptive Skin Weathering"
+filename = "skin-weathering-neoforge-1.2.2-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f93ec1f390746e781b307cba8010b4ea883625c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8478662
+project-id = 1601008

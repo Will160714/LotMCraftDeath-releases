@@ -1,0 +1,13 @@
+name = "Surveyor Neoforge"
+filename = "surveyor-neoforge-2.1.1-1.21-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "798f06b4bcb2885d372b30ec1b005d2465a2a0f8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9368772
+project-id = 1748878
