@@ -1,4 +1,4 @@
-name = "Lord"
+name = "LOTMCraft"
 author = "Will160714"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "bc22d2938fcd7ed7f7cbfdc5b5430e962c15a255d64576762f589f4503812355"
+hash = "b6b72f32d30d15394b20e427acdb265bfa458e9447da8be6b3115440579323a4"
 
 [versions]
 minecraft = "1.21.1"

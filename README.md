@@ -1,6 +1,9 @@
 # LotMCraftDeath-releases
 
-Release jars of LotMCraftDeath, and the **Lord** modpack that uses them.
+Release jars of LotMCraftDeath, and a packwiz pack that installs and keeps
+the **LOTMCraft** mod up to date. The pack contains only LOTMCraft; its
+libraries (TerraBlender, LDLib2, Photon, PlayerAnimationLib) are bundled
+inside the jar, so nothing else is needed to run it.
 
 | | Version |
 |---|---|
@@ -14,21 +17,14 @@ The pack is managed with [packwiz](https://packwiz.infra.link/). Its URL is:
 https://raw.githubusercontent.com/Will160714/LotMCraftDeath-releases/main/pack.toml
 ```
 
-The installer reads this URL each time it runs, downloads any mods that are
-missing or out of date, and removes mods that were dropped from the pack.
+The installer reads this URL each time it runs and downloads the newest
+LOTMCraft jar if yours is missing or out of date.
 
-## Not included
+## Other mods
 
-These are in the original Lord instance but are **not** in the pack, because
-they aren't published on CurseForge or Modrinth. If you need them, ask whoever
-runs the server for the jar and put it in your `mods` folder yourself:
-
-| Mod | Version | File |
-|---|---|---|
-| NeoOrigins | 2.2.38 | `neoorigins-2_2_38_1_21_1.jar` |
-| CommandDisabler | 1.0.3 | `command_disabler-1.0.3.jar` |
-
-Shader packs, mod configs and other personal settings are not included either.
+No other mods are included. If the server you play on uses more mods, add
+them to the same `mods` folder yourself (or with your launcher). The installer
+only manages the LOTMCraft jar and leaves other mods in the folder alone.
 
 ## Playing with Prism Launcher (easiest)
 
@@ -47,7 +43,7 @@ automatically before every launch.
    "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Will160714/LotMCraftDeath-releases/main/pack.toml
    ```
 
-4. Launch. The first start downloads all the mods; later starts only fetch
+4. Launch. The first start downloads LOTMCraft; later starts only fetch
    updates.
 
 ## Playing with the official Minecraft Launcher
@@ -92,24 +88,24 @@ before playing whenever the pack has changed.
 
 6. **Run the script** (double-click `update.bat`, or `./update.sh`). A window
    shows the download progress; when it finishes, the folder has a `mods`
-   folder with the pack's mods.
+   folder containing the LOTMCraft jar.
 7. **Add an installation in the Minecraft Launcher.** Installations → New
    installation:
    - **Version:** `release neoforge-21.1.265` (type "neoforge" to find it)
    - **Game directory:** the folder from step 3
-   - **More options → JVM arguments:** change `-Xmx2G` to at least `-Xmx6G`
-     (the pack is large; use `-Xmx8G` if you have 16 GB of RAM or more)
+   - **More options → JVM arguments:** change `-Xmx2G` to at least `-Xmx4G`
+     (more if you add other large mods)
 
 ### Every time you play
 
 Run `update.bat` / `update.sh` first, then start the installation from the
-Minecraft Launcher. If the pack hasn't changed, the script finishes in a few
+Minecraft Launcher. If LOTMCraft hasn't changed, the script finishes in a few
 seconds.
 
 ## Server
 
 Put `packwiz-installer-bootstrap.jar` in the server folder and run this before
-starting the server (it only installs the mods a server needs):
+starting the server:
 
 ```
 java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/Will160714/LotMCraftDeath-releases/main/pack.toml
@@ -117,6 +113,6 @@ java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercon
 
 ## Editing the pack
 
-Mod entries are in `mods/*.pw.toml`. After changing anything, run
-`packwiz refresh` and commit `index.toml` and `pack.toml` with your change.
-`mods/lotmcraft.pw.toml` is updated automatically after each LOTMCraft release.
+`mods/lotmcraft.pw.toml` is updated automatically after each LOTMCraft
+release. If you edit the pack by hand, run `packwiz refresh` and commit
+`index.toml` and `pack.toml` with your change.
