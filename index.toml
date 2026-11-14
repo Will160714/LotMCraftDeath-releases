@@ -2,5 +2,5 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/lotmcraft.pw.toml"
-hash = "2ceea67edd278bbe1fada792b84d441ceabf3bc89275f269641ba22c888a56d5"
+hash = "212124ee6e5e0fc796c20609b9facef2fc7188dd16427ce273194e4adff41585"
 metafile = true
